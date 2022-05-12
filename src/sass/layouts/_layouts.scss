@@ -3,3 +3,17 @@
 
 // 変数、ミックスイン、関数
 @use "../global" as g;
+
+
+
+// スナップコンテナ
+.l-snap-container {
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+
+  > * {
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+}

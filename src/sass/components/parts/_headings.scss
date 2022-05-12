@@ -3,3 +3,14 @@
 
 // 変数、ミックスイン、関数
 @use "../../global" as g;
+
+
+
+// プライマリ
+.primaryHeading {
+  --min-size: 64;
+  --max-size: 112;
+  margin-block-end: 2rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: var(--clamp-size);
+}

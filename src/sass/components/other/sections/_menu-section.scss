@@ -1,0 +1,31 @@
+// セクション・Menu
+
+
+// 変数、ミックスイン、関数
+@use "../../../global/_index.scss";
+
+
+
+.menuSection {
+  padding-inline: 1rem;
+  background-image: url(/images/bread2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  &__table {
+    --min-size: 16;
+    --max-size: 18;
+    font-size: var(--clamp-size);
+    line-height: 1.7;
+
+    &Header {
+      padding-inline-end: 15px;
+      font-weight: normal;
+    }
+  }
+}

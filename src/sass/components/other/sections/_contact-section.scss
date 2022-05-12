@@ -1,0 +1,50 @@
+// セクション / Contact
+
+
+// 変数、ミックスイン、関数
+@use "../../../global/_index.scss";
+
+
+
+.contactSection {
+  padding-block-start: 8vh;
+  background-image: url(/images/cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+
+  &__address {
+    --min-size: 16;
+    --max-size: 18;
+    margin-block-end: 2rem;
+    margin-inline: 1em;
+    font-size: var(--clamp-size);
+    line-height: 1.7;
+  }
+
+  &__btn {
+    margin-block-end: 2.25rem;
+  }
+
+  &__sns {
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+
+    &Link {
+      width: 3.75rem;
+      aspect-ratio: 1/1;
+      background-color: #fff;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}

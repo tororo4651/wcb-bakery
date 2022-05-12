@@ -1,0 +1,29 @@
+// ヒーローイメージ
+
+
+// 変数、ミックスイン、関数
+@use "../../../global" as g;
+
+
+
+.hero {
+  padding-block-start: 10vh;
+  background-image: url(/images/bread1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+
+  &__text {
+    --min-size: 16;
+    --max-size: 18;
+    margin-inline: 1em;
+    font-size: var(--clamp-size);
+    line-height: 1.7;
+  }
+
+
+  @include g.mq('md-max') {
+    padding-block-start: 12vh;
+  }
+}

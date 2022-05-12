@@ -1,6 +1,7 @@
 // 変数
 
 // カラー
+$grayColor: #555;
 
 
 
@@ -14,8 +15,8 @@ $breakpoints: (
   'xs-max': '(max-width: 374px)',
   'sm-min': '(min-width: 600px)',
   'sm-max': '(max-width: 599px)',
-  'md-min': '(min-width: 768px)',
-  'md-max': '(max-width: 767px)',
+  'md-min': '(min-width: 701px)',
+  'md-max': '(max-width: 700px)',
   'lg-min': '(min-width: 1024px)',
   'lg-max': '(max-width: 1023px)',
   'xl-min': '(min-width: 1200px)',

@@ -3,17 +3,103 @@
 
 <%- include('components/common/_head.ejs', top) %>
 
+<body>
 
-<body class="top">
+<div class="l-snap-container">
 
+  <div class="hero">
+    <h1 class="hero__heading primaryHeading">WCB Bakery</h1>
 
+    <p class="hero__text">
+      素材と食感にこだわったパンが勢ぞろい。<br>
+      毎朝仕込んで焼き上げています。<br>
+      パンと一緒に過ごす至福のひとときをお楽しみください。
+    </p>
+  </div><!-- /.hero -->
 
+  <section class="menuSection">
+    <h2 class="menuSection__heading primaryHeading">Menu</h2>
 
+    <table class="menuSection__table">
+      <tr class="menuSection__tableRow">
+        <th class="menuSection__tableHeader">・メロンパン</th>
+        <td class="menuSection__tableData">¥220</td>
+      </tr>
 
+      <tr class="menuSection__tableRow">
+        <th class="menuSection__tableHeader">・りんごのデニッシュ</th>
+        <td class="menuSection__tableData">¥240</td>
+      </tr>
 
+      <tr class="menuSection__tableRow">
+        <th class="menuSection__tableHeader">・チョコレートクロワッサン</th>
+        <td class="menuSection__tableData">¥280</td>
+      </tr>
 
+      <tr class="menuSection__tableRow">
+        <th class="menuSection__tableHeader">・バゲット</th>
+        <td class="menuSection__tableData">¥300</td>
+      </tr>
 
+      <tr class="menuSection__tableRow">
+        <th class="menuSection__tableHeader">・いちごのペストリー</th>
+        <td class="menuSection__tableData">¥300</td>
+      </tr>
 
+      <tr class="menuSection__tableRow">
+        <th class="menuSection__tableHeader">・そら豆のパン</th>
+        <td class="menuSection__tableData">¥320</td>
+      </tr>
+
+      <tr class="menuSection__tableRow">
+        <th class="menuSection__tableHeader">・ブルーベリージャム</th>
+        <td class="menuSection__tableData">¥400</td>
+      </tr>
+
+      <tr class="menuSection__tableRow">
+        <th class="menuSection__tableHeader">・レーズンとくるみのパン</th>
+        <td class="menuSection__tableData">¥700</td>
+      </tr>
+
+      <tr class="menuSection__tableRow">
+        <th class="menuSection__tableHeader">・ランチセット</th>
+        <td class="menuSection__tableData">¥1,200</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="contactSection">
+    <h2 class="contactSection__heading primaryHeading">Contact</h2>
+
+    <div class="contactSection__address">
+      東京都新宿区市谷左内町00-00<br>
+      営業時間 8:00〜20:00
+    </div><!-- /.contactSection__address -->
+
+    <a class="contactSection__btn primaryBtn" href="#">お問い合わせ</a>
+
+    <ul class="contactSection__sns">
+      <li class="contactSection__snsItem">
+        <a class="contactSection__snsLink" href="#">
+          <i class="contactSection__snsIcon fa-brands fa-facebook-square"></i>
+        </a>
+      </li>
+
+      <li class="contactSection__snsItem">
+        <a class="contactSection__snsLink" href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+
+      <li class="contactSection__snsItem">
+        <a class="contactSection__snsLink" href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+</div><!-- /.l-snap-container -->
 
 
 <%- include('components/common/_script') %>
